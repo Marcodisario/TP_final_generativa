@@ -1,0 +1,73 @@
+{
+  "entradas": {
+    "entrega": "entrega.py",
+    "normas": "normas\\original",
+    "consultas": "rag\\consultas_dev.jsonl"
+  },
+  "entorno": {
+    "k_entorno": 2,
+    "consultas": 60,
+    "recall_evidencia": 1.0,
+    "precision": 0.933,
+    "chunks_por_consulta": 1.27,
+    "tokens_por_consulta": 377,
+    "consultas_con_toda_la_evidencia": 60,
+    "recall_por_tipo": {
+      "coloquial": 1.0,
+      "directa": 1.0,
+      "distractora": 1.0,
+      "dos_secciones": 1.0,
+      "numerica": 1.0
+    }
+  },
+  "presupuesto": [
+    {
+      "presupuesto_tokens": 256,
+      "consultas": 60,
+      "recall_evidencia": 0.883,
+      "precision": 0.286,
+      "chunks_por_consulta": 3.68,
+      "tokens_por_consulta": 256,
+      "consultas_con_toda_la_evidencia": 51,
+      "recall_por_tipo": {
+        "coloquial": 0.667,
+        "directa": 1.0,
+        "distractora": 0.875,
+        "dos_secciones": 0.75,
+        "numerica": 1.0
+      }
+    },
+    {
+      "presupuesto_tokens": 512,
+      "consultas": 60,
+      "recall_evidencia": 0.95,
+      "precision": 0.17,
+      "chunks_por_consulta": 6.6,
+      "tokens_por_consulta": 512,
+      "consultas_con_toda_la_evidencia": 57,
+      "recall_por_tipo": {
+        "coloquial": 0.75,
+        "directa": 1.0,
+        "distractora": 1.0,
+        "dos_secciones": 1.0,
+        "numerica": 1.0
+      }
+    },
+    {
+      "presupuesto_tokens": 1024,
+      "consultas": 60,
+      "recall_evidencia": 1.0,
+      "precision": 0.091,
+      "chunks_por_consulta": 12.62,
+      "tokens_por_consulta": 1024,
+      "consultas_con_toda_la_evidencia": 60,
+      "recall_por_tipo": {
+        "coloquial": 1.0,
+        "directa": 1.0,
+        "distractora": 1.0,
+        "dos_secciones": 1.0,
+        "numerica": 1.0
+      }
+    }
+  ]
+}

@@ -1,1 +1,0 @@
-# TP_final_generativa
