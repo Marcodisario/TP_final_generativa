@@ -1,0 +1,20 @@
+{
+  "total": 2000,
+  "tipos": {
+    "correcta": 1600,
+    "error": 240,
+    "ruido": 160
+  },
+  "filas_pendientes_revision": 0,
+  "motivos_ruido": {
+    "eligio_obra_social_con_prepaga": 9,
+    "voluntariado_difiere_costumbre": 151
+  },
+  "sha256": {
+    "historial\\historial.csv": "94c1bcd64bb78872d37afe6c77fef675ab69be458fbfad719f8b1be27048036e",
+    "normas\\original\\parametros.yaml": "ebe040bc692498c85877714d6adcaf1611da63c901f55e8b2fc4012e85873420",
+    "curado\\reglas.py": "f2f4c5680ec9b0a3325471b20c8ba96640a08f723daff3276333a5ec29b284ee",
+    "curado\\clasificar.py": "69aee1b227ba715384f77e245049585b710fcfaef5097e629454b0474c6b25d4",
+    "historial_clasificado.csv": "b8a5817ee1cfb5bb237541f3b46de7a8be48a64c042279040a6c23b83b48d340"
+  }
+}

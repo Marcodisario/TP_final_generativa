@@ -1,0 +1,644 @@
+{
+  "historial_sha256": "94c1bcd64bb78872d37afe6c77fef675ab69be458fbfad719f8b1be27048036e",
+  "parametros_sha256": "ebe040bc692498c85877714d6adcaf1611da63c901f55e8b2fc4012e85873420",
+  "reglas_sha256": "f2f4c5680ec9b0a3325471b20c8ba96640a08f723daff3276333a5ec29b284ee",
+  "exploracion_sha256": "2d5cd1ff72a0ea7d2b25c28d55c25c0b5c95a565fa783fc30357f3159d65c4e5",
+  "grupos": {
+    "todas": {
+      "filas": 2000,
+      "voluntariado": {
+        "edad": {
+          "10": {
+            "total": 48,
+            "si": 2,
+            "no": 46
+          },
+          "20": {
+            "total": 279,
+            "si": 15,
+            "no": 264
+          },
+          "30": {
+            "total": 297,
+            "si": 29,
+            "no": 268
+          },
+          "40": {
+            "total": 280,
+            "si": 26,
+            "no": 254
+          },
+          "50": {
+            "total": 286,
+            "si": 22,
+            "no": 264
+          },
+          "60": {
+            "total": 277,
+            "si": 18,
+            "no": 259
+          },
+          "70": {
+            "total": 268,
+            "si": 73,
+            "no": 195
+          },
+          "80": {
+            "total": 265,
+            "si": 154,
+            "no": 111
+          }
+        },
+        "nivel": {
+          "1": {
+            "total": 485,
+            "si": 77,
+            "no": 408
+          },
+          "2": {
+            "total": 655,
+            "si": 98,
+            "no": 557
+          },
+          "3": {
+            "total": 595,
+            "si": 108,
+            "no": 487
+          },
+          "4": {
+            "total": 205,
+            "si": 44,
+            "no": 161
+          },
+          "5": {
+            "total": 60,
+            "si": 12,
+            "no": 48
+          }
+        },
+        "llegada": {
+          "en ambulancia": {
+            "total": 700,
+            "si": 111,
+            "no": 589
+          },
+          "por sus propios medios": {
+            "total": 1300,
+            "si": 228,
+            "no": 1072
+          }
+        },
+        "puede_responder": {
+          "no": {
+            "total": 413,
+            "si": 56,
+            "no": 357
+          },
+          "sí": {
+            "total": 1587,
+            "si": 283,
+            "no": 1304
+          }
+        },
+        "acompanante": {
+          "no": {
+            "total": 1155,
+            "si": 278,
+            "no": 877
+          },
+          "sí": {
+            "total": 845,
+            "si": 61,
+            "no": 784
+          }
+        },
+        "lesion_trabajo": {
+          "en el trayecto": {
+            "total": 177,
+            "si": 31,
+            "no": 146
+          },
+          "no": {
+            "total": 1626,
+            "si": 268,
+            "no": 1358
+          },
+          "trabajando": {
+            "total": 197,
+            "si": 40,
+            "no": 157
+          }
+        },
+        "motivo": {
+          "cefalea": {
+            "total": 50,
+            "si": 7,
+            "no": 43
+          },
+          "dolor abdominal": {
+            "total": 63,
+            "si": 12,
+            "no": 51
+          },
+          "dolor torácico": {
+            "total": 429,
+            "si": 67,
+            "no": 362
+          },
+          "fiebre y tos": {
+            "total": 49,
+            "si": 13,
+            "no": 36
+          },
+          "herida cortante": {
+            "total": 182,
+            "si": 43,
+            "no": 139
+          },
+          "palpitaciones": {
+            "total": 61,
+            "si": 12,
+            "no": 49
+          },
+          "signos neurológicos focales de inicio súbito": {
+            "total": 304,
+            "si": 56,
+            "no": 248
+          },
+          "sospecha de sepsis": {
+            "total": 659,
+            "si": 97,
+            "no": 562
+          },
+          "traumatismo de miembro": {
+            "total": 203,
+            "si": 32,
+            "no": 171
+          }
+        },
+        "cobertura_registrada": {
+          "art": {
+            "total": 374,
+            "si": 71,
+            "no": 303
+          },
+          "obra_social": {
+            "total": 275,
+            "si": 33,
+            "no": 242
+          },
+          "prepaga": {
+            "total": 410,
+            "si": 65,
+            "no": 345
+          },
+          "sin_cobertura": {
+            "total": 941,
+            "si": 170,
+            "no": 771
+          }
+        },
+        "operador": {
+          "OP-01": {
+            "total": 95,
+            "si": 9,
+            "no": 86
+          },
+          "OP-02": {
+            "total": 100,
+            "si": 14,
+            "no": 86
+          },
+          "OP-03": {
+            "total": 99,
+            "si": 13,
+            "no": 86
+          },
+          "OP-04": {
+            "total": 93,
+            "si": 39,
+            "no": 54
+          },
+          "OP-05": {
+            "total": 102,
+            "si": 9,
+            "no": 93
+          },
+          "OP-06": {
+            "total": 105,
+            "si": 10,
+            "no": 95
+          },
+          "OP-07": {
+            "total": 95,
+            "si": 10,
+            "no": 85
+          },
+          "OP-08": {
+            "total": 89,
+            "si": 17,
+            "no": 72
+          },
+          "OP-09": {
+            "total": 110,
+            "si": 10,
+            "no": 100
+          },
+          "OP-10": {
+            "total": 110,
+            "si": 10,
+            "no": 100
+          },
+          "OP-11": {
+            "total": 111,
+            "si": 60,
+            "no": 51
+          },
+          "OP-12": {
+            "total": 117,
+            "si": 14,
+            "no": 103
+          },
+          "OP-13": {
+            "total": 110,
+            "si": 12,
+            "no": 98
+          },
+          "OP-14": {
+            "total": 87,
+            "si": 6,
+            "no": 81
+          },
+          "OP-15": {
+            "total": 89,
+            "si": 9,
+            "no": 80
+          },
+          "OP-16": {
+            "total": 80,
+            "si": 11,
+            "no": 69
+          },
+          "OP-17": {
+            "total": 122,
+            "si": 55,
+            "no": 67
+          },
+          "OP-18": {
+            "total": 86,
+            "si": 8,
+            "no": 78
+          },
+          "OP-19": {
+            "total": 106,
+            "si": 17,
+            "no": 89
+          },
+          "OP-20": {
+            "total": 94,
+            "si": 6,
+            "no": 88
+          }
+        }
+      },
+      "dos_credenciales": {
+        "total": 193,
+        "verificada": {
+          "prepaga": 184,
+          "obra_social": 9
+        }
+      }
+    },
+    "sin_alerta_normativa": {
+      "filas": 1762,
+      "voluntariado": {
+        "edad": {
+          "10": {
+            "total": 45,
+            "si": 2,
+            "no": 43
+          },
+          "20": {
+            "total": 248,
+            "si": 15,
+            "no": 233
+          },
+          "30": {
+            "total": 273,
+            "si": 29,
+            "no": 244
+          },
+          "40": {
+            "total": 257,
+            "si": 26,
+            "no": 231
+          },
+          "50": {
+            "total": 262,
+            "si": 22,
+            "no": 240
+          },
+          "60": {
+            "total": 237,
+            "si": 18,
+            "no": 219
+          },
+          "70": {
+            "total": 228,
+            "si": 61,
+            "no": 167
+          },
+          "80": {
+            "total": 212,
+            "si": 126,
+            "no": 86
+          }
+        },
+        "nivel": {
+          "1": {
+            "total": 424,
+            "si": 73,
+            "no": 351
+          },
+          "2": {
+            "total": 581,
+            "si": 93,
+            "no": 488
+          },
+          "3": {
+            "total": 514,
+            "si": 86,
+            "no": 428
+          },
+          "4": {
+            "total": 189,
+            "si": 39,
+            "no": 150
+          },
+          "5": {
+            "total": 54,
+            "si": 8,
+            "no": 46
+          }
+        },
+        "llegada": {
+          "en ambulancia": {
+            "total": 565,
+            "si": 98,
+            "no": 467
+          },
+          "por sus propios medios": {
+            "total": 1197,
+            "si": 201,
+            "no": 996
+          }
+        },
+        "puede_responder": {
+          "no": {
+            "total": 354,
+            "si": 52,
+            "no": 302
+          },
+          "sí": {
+            "total": 1408,
+            "si": 247,
+            "no": 1161
+          }
+        },
+        "acompanante": {
+          "no": {
+            "total": 1023,
+            "si": 238,
+            "no": 785
+          },
+          "sí": {
+            "total": 739,
+            "si": 61,
+            "no": 678
+          }
+        },
+        "lesion_trabajo": {
+          "en el trayecto": {
+            "total": 162,
+            "si": 28,
+            "no": 134
+          },
+          "no": {
+            "total": 1422,
+            "si": 238,
+            "no": 1184
+          },
+          "trabajando": {
+            "total": 178,
+            "si": 33,
+            "no": 145
+          }
+        },
+        "motivo": {
+          "cefalea": {
+            "total": 44,
+            "si": 7,
+            "no": 37
+          },
+          "dolor abdominal": {
+            "total": 57,
+            "si": 12,
+            "no": 45
+          },
+          "dolor torácico": {
+            "total": 372,
+            "si": 60,
+            "no": 312
+          },
+          "fiebre y tos": {
+            "total": 44,
+            "si": 11,
+            "no": 33
+          },
+          "herida cortante": {
+            "total": 167,
+            "si": 34,
+            "no": 133
+          },
+          "palpitaciones": {
+            "total": 56,
+            "si": 9,
+            "no": 47
+          },
+          "signos neurológicos focales de inicio súbito": {
+            "total": 271,
+            "si": 51,
+            "no": 220
+          },
+          "sospecha de sepsis": {
+            "total": 564,
+            "si": 87,
+            "no": 477
+          },
+          "traumatismo de miembro": {
+            "total": 187,
+            "si": 28,
+            "no": 159
+          }
+        },
+        "cobertura_registrada": {
+          "art": {
+            "total": 340,
+            "si": 61,
+            "no": 279
+          },
+          "obra_social": {
+            "total": 244,
+            "si": 30,
+            "no": 214
+          },
+          "prepaga": {
+            "total": 345,
+            "si": 59,
+            "no": 286
+          },
+          "sin_cobertura": {
+            "total": 833,
+            "si": 149,
+            "no": 684
+          }
+        },
+        "operador": {
+          "OP-01": {
+            "total": 82,
+            "si": 8,
+            "no": 74
+          },
+          "OP-02": {
+            "total": 90,
+            "si": 11,
+            "no": 79
+          },
+          "OP-03": {
+            "total": 87,
+            "si": 10,
+            "no": 77
+          },
+          "OP-04": {
+            "total": 77,
+            "si": 36,
+            "no": 41
+          },
+          "OP-05": {
+            "total": 88,
+            "si": 5,
+            "no": 83
+          },
+          "OP-06": {
+            "total": 95,
+            "si": 8,
+            "no": 87
+          },
+          "OP-07": {
+            "total": 87,
+            "si": 8,
+            "no": 79
+          },
+          "OP-08": {
+            "total": 75,
+            "si": 14,
+            "no": 61
+          },
+          "OP-09": {
+            "total": 99,
+            "si": 8,
+            "no": 91
+          },
+          "OP-10": {
+            "total": 102,
+            "si": 9,
+            "no": 93
+          },
+          "OP-11": {
+            "total": 99,
+            "si": 58,
+            "no": 41
+          },
+          "OP-12": {
+            "total": 103,
+            "si": 11,
+            "no": 92
+          },
+          "OP-13": {
+            "total": 99,
+            "si": 11,
+            "no": 88
+          },
+          "OP-14": {
+            "total": 75,
+            "si": 5,
+            "no": 70
+          },
+          "OP-15": {
+            "total": 79,
+            "si": 8,
+            "no": 71
+          },
+          "OP-16": {
+            "total": 74,
+            "si": 10,
+            "no": 64
+          },
+          "OP-17": {
+            "total": 106,
+            "si": 51,
+            "no": 55
+          },
+          "OP-18": {
+            "total": 76,
+            "si": 8,
+            "no": 68
+          },
+          "OP-19": {
+            "total": 88,
+            "si": 15,
+            "no": 73
+          },
+          "OP-20": {
+            "total": 81,
+            "si": 5,
+            "no": 76
+          }
+        }
+      },
+      "dos_credenciales": {
+        "total": 174,
+        "verificada": {
+          "prepaga": 165,
+          "obra_social": 9
+        }
+      }
+    }
+  },
+  "validacion_umbrales": [
+    {
+      "ajuste_paridad": 0,
+      "n_ajuste": 1000,
+      "umbrales_optimos": [
+        75
+      ],
+      "errores_ajuste": 85,
+      "n_prueba": 1000,
+      "errores_prueba_por_umbral": {
+        "75": 66
+      }
+    },
+    {
+      "ajuste_paridad": 1,
+      "n_ajuste": 1000,
+      "umbrales_optimos": [
+        75
+      ],
+      "errores_ajuste": 66,
+      "n_prueba": 1000,
+      "errores_prueba_por_umbral": {
+        "75": 85
+      }
+    }
+  ]
+}

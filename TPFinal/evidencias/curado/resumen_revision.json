@@ -1,0 +1,21 @@
+{
+  "filas": 2000,
+  "por_estado_revision": {
+    "candidata_error": 238,
+    "pendiente": 174,
+    "sin_alertas": 1588
+  },
+  "violaciones_por_regla": {
+    "box": 61,
+    "cobertura": 11,
+    "notificacion": 5,
+    "plazo": 97,
+    "tipo_registro": 64
+  },
+  "filas_con_insuficientes": 193,
+  "sha256": {
+    "historial": "94c1bcd64bb78872d37afe6c77fef675ab69be458fbfad719f8b1be27048036e",
+    "parametros": "ebe040bc692498c85877714d6adcaf1611da63c901f55e8b2fc4012e85873420",
+    "reglas_py": "f2f4c5680ec9b0a3325471b20c8ba96640a08f723daff3276333a5ec29b284ee"
+  }
+}

@@ -1,5 +1,7 @@
 # Kit del TP final: la ficha de admisión de guardia
 
+> **Trabajo del grupo:** la clasificación preliminar del historial, su método y los comandos para reproducirla se describen en [resumen_parte1.md](resumen_parte1.md). El estado de los requisitos revisados está en [CHECKLIST_PARTE1.md](CHECKLIST_PARTE1.md), y el informe preliminar en [INFORME.md](INFORME.md).
+
 El enunciado (qué hay que hacer, qué se entrega y cómo se corrige) está en [mission.md](mission.md), y el video que lo presenta en dos partes: [Parte 1](https://www.loom.com/share/2c56572757124aaf8e2a1e1398efe27d) y [Parte 2](https://www.loom.com/share/12f6cb81c76440cd8a86563dcc02b2f2). Esto explica qué trae el kit y cómo se usa.
 
 ## Qué trae
