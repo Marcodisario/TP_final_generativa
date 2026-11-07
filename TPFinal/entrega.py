@@ -4,8 +4,9 @@ from buscador_rag import construir_buscador
 
 
 def construir_agente():
-    """La Parte 2 se evalúa sin agente; se implementará en la etapa correspondiente."""
-    raise NotImplementedError("El agente se implementará en las Partes 3 y 4")
+    """Carga el modelo local para evaluar prompts; requiere dependencias de prompt_gpu."""
+    from prompt_gpu.agente import construir_agente_local
+    return construir_agente_local()
 
 
 __all__ = ["construir_buscador", "construir_agente"]

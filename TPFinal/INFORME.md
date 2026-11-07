@@ -1,5 +1,7 @@
 # Informe del trabajo final
 
+> Actualización: el grupo confirmó que acepta como definitiva la clasificación de `historial_clasificado.csv`. Las referencias a su carácter preliminar más abajo describen la etapa anterior de análisis; esto no implica conocer la clasificación secreta de la cátedra.
+
 ## Parte 1: curado del historial — estado preliminar
 
 ### Fuente y método
@@ -29,6 +31,10 @@ Los 160 casos de ruido corresponden a 151 discrepancias de la hipótesis de volu
 
 Los comandos, archivos producidos y pruebas están en `resumen_parte1.md`. `evidencias/curado/trazas_clasificacion.jsonl` conserva por ID las comparaciones normativas, las violaciones, las desviaciones de costumbre y los pendientes. El resumen contiene hashes de entradas, código y CSV. Se debe conservar en el repositorio la versión exacta de código y datos correspondiente a las evidencias.
 
-Pendientes: confirmar que la versión de normas aplica al historial, revisar candidatas y excepciones, y validar las costumbres y otros patrones no explorados. La creación de conversaciones de entrenamiento y datos sintéticos queda fuera de esta revisión; debe documentarse cuando se realice.
+### Conversaciones del historial — primera conversión
+
+Se transformaron las 1.600 trazas del historial etiquetadas `correcta` en conversaciones con el formato del agente de ejemplo, sin inventar pasos ni modificar los resultados de las herramientas. Se excluyeron 240 filas `error` y 160 `ruido` según la clasificación provisional. El archivo generado es `entrenamiento/conversaciones_historial.jsonl`; el script `curado/convertir_trazas.py`, las comprobaciones, el prompt de referencia sin optimizar y las huellas de los archivos se describen en `CONVERSACIONES_ENTRENAMIENTO.md` y `entrenamiento/resumen_conversion.json`. Hay **1.600 conversaciones derivadas del historial y 0 conversaciones sintéticas generadas en esta pasada**. No se incluyeron las 800 trazas de referencia existentes en `entrenamiento/trazasE.jsonl`.
+
+Pendientes: confirmar que la versión de normas aplica al historial, revisar candidatas y excepciones, y validar las costumbres y otros patrones no explorados. Como las etiquetas son provisionales, la selección de conversaciones también lo es. Antes de entrenar, optimizar el prompt como exige la misión, regenerar el conjunto correspondiente y fijar una separación para evaluación. La generación sintética queda para una decisión posterior.
 
 Las demás partes del informe se completarán al desarrollarlas.

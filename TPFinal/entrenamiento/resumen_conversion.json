@@ -1,0 +1,20 @@
+{
+  "clasificacion": "aceptada como definitiva por el grupo",
+  "criterio": "solo filas etiquetadas correcta",
+  "etiquetas": {
+    "correcta": 1600,
+    "error": 240,
+    "ruido": 160
+  },
+  "conversaciones": 1600,
+  "prompt": "admision.ejemplo.mensaje_de_sistema; referencia sin optimizar",
+  "prompt_sha256": "f23f5921894f8843408ad46ddf1a0538ed8dd96ac9546dfd0aff80b8a4cba659",
+  "sha256": {
+    "historial": "94c1bcd64bb78872d37afe6c77fef675ab69be458fbfad719f8b1be27048036e",
+    "clasificacion": "b8a5817ee1cfb5bb237541f3b46de7a8be48a64c042279040a6c23b83b48d340",
+    "trazas": "02a7a25bb73bfa199fe0a8a74d5a8332815b786e37056692a58167c9ec69cda8",
+    "convertidor": "db80c174e525051b62b4dd0cf9bb7bb2c0d11d05e656c4c9d5ce69216c8f090b",
+    "agente_ejemplo": "9a7720fab7feb8762117be314294c20357218d54140f73cd6a6fea3931649673",
+    "conversaciones": "91f2944e8921bc0a6cbf4b474dfcbdfe2cad54796c09401269607878b73d22ff"
+  }
+}

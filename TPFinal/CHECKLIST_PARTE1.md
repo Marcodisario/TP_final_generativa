@@ -1,6 +1,8 @@
 # Checklist — Parte 1: clasificación y costumbres
 
-Alcance de esta revisión: clasificación del historial, normas, costumbres, evidencias y documentación. La creación de conversaciones de entrenamiento y datos sintéticos fue excluida por pedido del usuario; este checklist no declara completa toda la parte 1 de la misión.
+> Actualización: el grupo aceptó la clasificación como definitiva. Los puntos de revisión que siguen documentan las comprobaciones y limitaciones identificadas durante el desarrollo; no son una nueva solicitud de aprobación.
+
+Alcance: clasificación, costumbres y una primera conversión de trazas del historial. La generación de conversaciones sintéticas queda para una decisión posterior; este checklist no declara completa toda la parte 1 de la misión.
 
 ## Entregables y formato
 
@@ -9,6 +11,9 @@ Alcance de esta revisión: clasificación del historial, normas, costumbres, evi
 - [x] `costumbres.md` explica las hipótesis e indica IDs de respaldo y excepciones.
 - [x] `INFORME.md` contiene un apartado preliminar de curado, método, cantidades y pasadas del desarrollo.
 - [x] `resumen_parte1.md` explica el recorrido y cómo ejecutar los scripts.
+- [x] Las 1.600 trazas etiquetadas `correcta` se convirtieron al formato de conversación del agente de ejemplo; el conjunto es provisional y no incluye las 800 trazas de referencia.
+- [x] `CONVERSACIONES_ENTRENAMIENTO.md` describe el formato y el comando de reproducción; `entrenamiento/resumen_conversion.json` registra cantidades y hashes.
+- [ ] Optimizar el prompt antes de entrenar y preparar el archivo y la división de evaluación para una corrida concreta.
 
 ## Lógica y revisión
 
@@ -21,7 +26,7 @@ Alcance de esta revisión: clasificación del historial, normas, costumbres, evi
 - [ ] Confirmar que las normas originales y la interpretación temporal de las columnas corresponden al historial.
 - [ ] Revisar las candidatas a error, las excepciones a las costumbres y las reglas no verificables con el CSV.
 - [ ] Validar las hipótesis de costumbre y explorar si hay otras; no hay clasificación verdadera de referencia disponible.
-- [ ] Revisar y aceptar la clasificación como definitiva antes de usarla como entrega o dato de entrenamiento.
+- [x] El grupo revisó y aceptó la clasificación como definitiva para su trabajo.
 
 ## Auditabilidad
 
