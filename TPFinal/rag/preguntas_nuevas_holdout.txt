@@ -1,0 +1,206 @@
+PREGUNTAS NUEVAS PARA EVALUAR EL RAG
+====================================
+
+Estas preguntas fueron creadas como prueba adicional de generalización.
+No pertenecen al conjunto oficial de la cátedra ni al test secreto.
+
+REGISTRO Y ADMISIÓN
+-------------------
+
+1. Una persona llegó sin identificación oficial. ¿La ficha queda temporal o definitiva?
+   Esperada: NOR-ADM-01
+
+2. ¿Puedo completar la identificación recién después de que el paciente abandone la guardia?
+   Esperada: NOR-ADM-01
+
+3. Apareció el documento luego de abrir una ficha provisoria. ¿Cómo cierro el registro?
+   Esperada: NOR-ADM-01
+
+4. Un paciente de 74 años espera para ser cargado. ¿Debe entrar primero al box?
+   Esperada: NOR-ADM-02
+
+5. ¿Existe una edad a partir de la cual se prioriza la ubicación antes que la carga administrativa?
+   Esperada: NOR-ADM-02
+
+6. Recibimos a un adulto de ochenta años con triage bajo. ¿Qué trámite va primero?
+   Esperada: NOR-ADM-02
+
+7. Un extranjero presenta cédula y tiene máxima urgencia. ¿La inscripción queda provisoria?
+   Esperada: NOR-ADM-03
+
+8. Con pasaporte a la vista y nivel urgente, ¿corresponde alta definitiva en el sistema?
+   Esperada: NOR-ADM-03
+
+9. Si la cédula produce un registro temporal, ¿igual copio su número?
+   Esperada: NOR-ADM-03
+
+COBERTURA
+---------
+
+10. No mostró carnet de su plan médico. ¿Debo consultarle qué entidad posee?
+    Esperada: NOR-COB-01
+
+11. El enfermo no puede hablar y vino acompañado. ¿Quién informa su aseguradora?
+    Esperada: NOR-COB-01
+
+12. Llegó inconsciente y sin familiares. ¿Cómo trato provisoriamente su cobertura?
+    Esperada: NOR-COB-01
+
+13. ¿La guardia puede exigir aprobación de la aseguradora antes de atender una emergencia?
+    Esperada: NOR-COB-02
+
+14. ¿Qué identificadores se mandan a la entidad para comprobar que la persona está afiliada?
+    Esperada: NOR-COB-02
+
+15. En un siniestro laboral, ¿qué número se utiliza para validar la ART?
+    Esperada: NOR-COB-02
+
+16. La mutual informa que la membresía fue cancelada. ¿Se le manda igualmente el aviso?
+    Esperada: NOR-COB-03
+
+17. Una persona sin seguro médico, ¿debe dejar dinero como garantía?
+    Esperada: NOR-COB-03
+
+18. ¿Qué área del hospital ayuda a gestionar protección pública para quien carece de seguro?
+    Esperada: NOR-COB-03
+
+19. La credencial termina en el número especial y figura vigente. ¿Cómo queda asentada la cobertura?
+    Esperada: NOR-COB-04
+
+20. Si el número de socio tiene la terminación reservada, ¿de todas maneras consulto su estado?
+    Esperada: NOR-COB-04
+
+21. El dígito especial aparece en la credencial de alguien lesionado en su empleo. ¿Se aplica esa excepción?
+    Esperada: NOR-COB-04
+
+DERIVACIONES
+------------
+
+22. Si posee medicina privada y debe trasladarse, ¿qué clase de institución receptora corresponde?
+    Esperada: NOR-DER-01
+
+23. ¿A dónde se traslada a una persona que no tiene ningún seguro de salud?
+    Esperada: NOR-DER-01
+
+24. Desde que el médico ordena el traslado, ¿cuál es el límite para concretarlo?
+    Esperada: NOR-DER-01
+
+GUARDIA Y TRIAGE
+----------------
+
+25. ¿Puede el administrativo corregir la categoría de gravedad asignada en recepción?
+    Esperada: NOR-GUA-01
+
+26. ¿Cuál es la demora máxima admitida hasta que el médico vea a un nivel tres?
+    Esperada: NOR-GUA-01
+
+27. Después de una nueva clasificación, ¿desde qué momento vuelve a contarse el tiempo de espera?
+    Esperada: NOR-GUA-01
+
+28. ¿Qué espacio físico corresponde a cada categoría de gravedad?
+    Esperada: NOR-GUA-02
+
+29. Un nivel cinco, ¿debe ir a agudos o a un consultorio de guardia?
+    Esperada: NOR-GUA-02
+
+30. No queda box de agudos para un caso crítico. ¿Puede ocupar reanimación?
+    Esperada: NOR-GUA-02
+
+31. La espera superó el máximo y todavía no comenzó la consulta médica. ¿Qué reevaluación se solicita?
+    Esperada: NOR-GUA-03
+
+32. Mientras aguardaba empeoró antes de ver al doctor. ¿Quién debe volver a clasificarlo?
+    Esperada: NOR-GUA-03
+
+33. Una vez iniciada la evaluación del médico, ¿se sigue pidiendo una nueva clasificación a enfermería?
+    Esperada: NOR-GUA-03
+
+INTERNACIÓN
+-----------
+
+34. Indicaron unidad coronaria, pero está llena. ¿Puedo usar terapia como reemplazo?
+    Esperada: NOR-INT-01
+
+35. ¿El personal administrativo puede elegir un sector distinto al indicado por el médico?
+    Esperada: NOR-INT-01
+
+36. Una internación por sarampión, ¿requiere una habitación con presión negativa?
+    Esperada: NOR-INT-02
+
+37. Para aislamiento de contacto, ¿se puede formar una cohorte en una habitación compartida?
+    Esperada: NOR-INT-02
+
+38. ¿Quién tiene preferencia para ocupar un cuarto individual de sala general?
+    Esperada: NOR-INT-03
+
+39. Entre dos personas que necesitan cuarto privado, ¿qué orden de prioridad se utiliza?
+    Esperada: NOR-INT-03
+
+40. ¿Pueden compartir dormitorio de sala general pacientes de distinto sexo?
+    Esperada: NOR-INT-04
+
+41. Para alguien sin aislamiento, ¿se ocupa primero un cuarto compartido vacío o uno compatible ya ocupado?
+    Esperada: NOR-INT-04
+
+42. No hay cama ahora, pero habrá un alta dentro del tiempo permitido. ¿Espera en la guardia?
+    Esperada: NOR-INT-05
+
+43. No existe plaza adecuada ni egreso previsto. ¿Se mantiene esperando o se traslada?
+    Esperada: NOR-INT-05
+
+CIRCUITOS URGENTES
+------------------
+
+44. Ante una opresión en el pecho, ¿qué estudio debe estar realizado y dentro de qué demora?
+    Esperada: NOR-TDE-01
+
+45. Si todavía no le asignaron lugar físico, ¿igual puede hacerse el trazado cardíaco en recepción?
+    Esperada: NOR-TDE-01
+
+46. Apareció de golpe debilidad de un lado del cuerpo. ¿Se activa el protocolo antes de las imágenes?
+    Esperada: NOR-TDE-02
+
+47. Despertó con la boca desviada y no se conoce el inicio. ¿Qué horario debe comunicarse?
+    Esperada: NOR-TDE-02
+
+48. Enfermería dejó asentada una posible infección sistémica. ¿Admisión inicia el circuito correspondiente?
+    Esperada: NOR-TDE-03
+
+49. La infección sistémica viene acompañada de shock. ¿Cuál es la demora permitida para activar el protocolo?
+    Esperada: NOR-TDE-03
+
+50. ¿Corresponde a admisión decidir el cultivo de sangre y el inicio del antibiótico?
+    Esperada: NOR-TDE-03
+
+51. Si entró caminando por sus propios medios, ¿se modifica el tiempo del circuito urgente?
+    Esperada: NOR-TDE-04
+
+52. El ingreso fue mediante transporte sanitario. ¿Cuánto se reduce la ventana del protocolo?
+    Esperada: NOR-TDE-04
+
+PREGUNTAS QUE NECESITAN DOS NORMAS
+----------------------------------
+
+53. Arribó en móvil sanitario con opresión precordial. ¿Qué tiempo final hay para el trazado cardíaco?
+    Esperadas: NOR-TDE-01 + NOR-TDE-04
+
+54. Lo trajo una unidad de emergencias con debilidad súbita en la mitad del cuerpo. ¿Qué plazo final tiene la activación?
+    Esperadas: NOR-TDE-02 + NOR-TDE-04
+
+55. Traslado sanitario y cuadro infeccioso con shock: ¿cómo queda la ventana para iniciar el protocolo?
+    Esperadas: NOR-TDE-03 + NOR-TDE-04
+
+56. Compare dos pacientes de nivel cuatro, uno de 78 años y otro de 45: ¿cuál entra antes de cargar la ficha?
+    Esperadas: NOR-ADM-02 + NOR-ADM-01
+
+57. Turista con pasaporte y categoría cuatro: ¿la ficha queda temporal o definitiva?
+    Esperadas: NOR-ADM-03 + NOR-ADM-01
+
+58. Se lesionó durante la jornada y mostró carnet de prepaga. ¿Qué cobertura se pregunta y cuál se valida?
+    Esperadas: NOR-COB-01 + NOR-COB-02
+
+59. Una persona sin seguro necesita ser trasladada. ¿Qué tipo de destino corresponde?
+    Esperadas: NOR-COB-03 + NOR-DER-01
+
+60. La membresía está cancelada y el número termina en el dígito especial. ¿La entidad recibe aviso?
+    Esperadas: NOR-COB-03 + NOR-COB-04
