@@ -377,6 +377,9 @@ class BuscadorNormativo:
         return [fragmento for _, fragmento in ranking[:k]]
 
 
-def construir_buscador(ruta_normas: str | Path) -> BuscadorNormativo:
-    return BuscadorNormativo(ruta_normas)
+def construir_buscador(ruta_normas: str | Path):
+    """Construye el buscador seleccionado para la entrega."""
+    from buscador_rag_embeddings import BuscadorNormativoEmbeddings as _BuscadorSeleccionado
+
+    return _BuscadorSeleccionado(ruta_normas)
 

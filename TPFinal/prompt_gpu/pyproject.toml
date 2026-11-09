@@ -9,4 +9,5 @@ dependencies = [
   "transformers==4.51.3",
   "huggingface-hub==0.30.2",
   "accelerate==1.6.0",
+  "scikit-learn==1.8.0",
 ]
